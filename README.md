@@ -64,21 +64,6 @@ Open `http://localhost:8000` in your browser.
 | `FORUM_TOP_K` | `3` | Forum chunks retrieved per query |
 
 
-## Project Structure
-
-```
-vasp-rag/
-├── app.py              # Chainlit chat interface
-├── retriever.py        # Hybrid keyword + vector retrieval
-├── llm.py              # LLM wrapper
-├── append.py           # Add PDFs to existing ChromaDB
-├── chroma_storage/     # ChromaDB vector database
-├── pdf_manifest.json   # Tracks ingested PDFs
-├── .env.example        # Environment variable template
-└── requirements.txt
-```
-
-
 ## Adding pdfs
 
 To add pdfs, run
