@@ -28,7 +28,8 @@ VASP is a state of the art density functional theory (DFT) tool widely used in c
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/vasp-rag
+git install lfs
+git clone https://github.com/ethanfox2206/vasp-rag
 cd vasp-rag
 
 # 2. Create environment
